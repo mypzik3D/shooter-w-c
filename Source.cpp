@@ -3,16 +3,17 @@
 //
 
 #include "Shooter.h"
-
+#include "costyl/connect.hpp"
 using namespace std;
 
+int main(int argc, char *argv[]) {
+	//enable costyl for write connect.txt out programm
+	update_connect(argc,argv);
 
-int main() {
-    Shooter game;
-
+	//Shooter game;
     // Optimal for standard monitors:
     //game.create(720, 480, ShooterConsts::PROJECT_NAME, true);
-    game.create(1920, 1080, ShooterConsts::PROJECT_NAME, true);
+    //game.create(1920, 1080, ShooterConsts::PROJECT_NAME, true);
     //game.create(1920, 1080, ShooterConsts::PROJECT_NAME, true, Consts::BACKGROUND_COLOR, sf::Style::Fullscreen);
 
     // Optimal for MacBook Pro 16 display:

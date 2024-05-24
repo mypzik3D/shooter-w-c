@@ -29,6 +29,7 @@ add_executable(${CMAKE_PROJECT_NAME}
         network/ShooterMsgType.cpp
         network/Chat.cpp
         network/Chat.h
+		costyl/connect.cpp
         )
 
 # include 3dzavr engine into our project
