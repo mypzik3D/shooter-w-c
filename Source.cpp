@@ -7,10 +7,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-	//enable costyl for write connect.txt out programm
-	update_connect(argc,argv);
+    //enable costyl for write connect.txt out programm
+    update_connect(argc,argv);
 
-	//Shooter game;
+    Shooter game;
     // Optimal for standard monitors:
     //game.create(720, 480, ShooterConsts::PROJECT_NAME, true);
     game.create(1920, 1080, ShooterConsts::PROJECT_NAME, true);
